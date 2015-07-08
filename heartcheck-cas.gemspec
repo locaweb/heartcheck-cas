@@ -9,16 +9,16 @@ Gem::Specification.new do |spec|
   spec.authors       = ["andrerocker"]
   spec.email         = ["andre.souza@gmail.com"]
 
-  spec.summary       = 'Provides cas checkers to heartcheck'
+  spec.summary       = 'cas checkers to heartcheck'
   spec.description   = 'Provides cas checkers to heartcheck'
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = 'http://github.com/locaweb/heartcheck-cas'
   spec.license       = "MIT"
   spec.files         = Dir.glob('lib/**/*')
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency 'bundler', '~> 1.10'
   spec.add_development_dependency 'rake', '~> 10.0'
-  spec.add_development_dependency 'rspec'
-  spec.add_development_dependency 'pry-nav'
-  spec.add_dependency 'heartcheck'
+  spec.add_development_dependency 'rspec', '~> 3.3'
+  spec.add_development_dependency 'pry-nav', '~> 0.2.4'
+  spec.add_dependency 'heartcheck', '~> 1.0'
 end
