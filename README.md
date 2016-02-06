@@ -1,6 +1,9 @@
 # Heartcheck::Cas
 
-A plugin to check CAS accessibility and our credencials
+[![Build Status](https://travis-ci.org/locaweb/heartcheck-cas.svg?branch=master)](https://travis-ci.org/locaweb/heartcheck-cas)
+[![Code Climate](https://codeclimate.com/github/locaweb/heartcheck-cas/badges/gpa.svg)](https://codeclimate.com/github/locaweb/heartcheck-cas)
+
+##A plugin to check CAS accessibility connection with [heartcheck](https://github.com/locaweb/heartcheck).
 
 ## Installation
 
@@ -20,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-You can add a check to cas when configure the heartcheck
+You can check any CAS credentials that there's in your app.
 
 ```ruby
 Heartcheck.setup do |config|
@@ -34,6 +37,11 @@ Heartcheck.setup do |config|
   end
 end
 ```
+
+### Check Heartcheck example [here](https://github.com/locaweb/heartcheck/blob/master/lib/heartcheck/generators/templates/config.rb)
+
+## License
+* [MIT License](https://github.com/locaweb/heartcheck-cas/blob/master/LICENSE.txt)
 
 ## Contributing
 
