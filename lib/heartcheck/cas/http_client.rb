@@ -1,5 +1,6 @@
 # enconding: utf-8
 require 'net/http'
+require 'openssl'
 
 module Heartcheck
   module Cas
