@@ -1,4 +1,7 @@
 # enconding: utf-8
+require 'net/http'
+require 'openssl'
+
 module Heartcheck
   module Cas
     class HttpClient
@@ -12,7 +15,7 @@ module Heartcheck
         request.set_form_data(params)
         base_client(uri).request(request)
       end
-      
+
       def base_client(uri)
         http = Net::HTTP.new(uri.host, uri.port)
         http.use_ssl = uri.scheme.eql?('https')
