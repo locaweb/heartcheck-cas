@@ -3,6 +3,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [1.0.1] - 2021-10-04
+## Changed
+- Add docker to facilitate development
+
 ## [1.0.0] - 2020-03-11
 ## Changed
 - Add support for ruby 2.7
