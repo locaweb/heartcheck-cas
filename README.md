@@ -44,9 +44,9 @@ end
 
 The Docker Hearthcheck-Cas provides a container with the current stable version of Ruby released and requires you to have these tools available in your local environment:
 
--  [Docker](https://docs.docker.com/get-docker/)
--  [Docker Compose](https://docs.docker.com/compose/install/)
--  [Bash](https://www.gnu.org/software/bash/)
+*   [Docker](https://docs.docker.com/get-docker/)
+*   [Docker Compose](https://docs.docker.com/compose/install/)
+*   [Bash](https://www.gnu.org/software/bash/)
 
 #### BootStrap Script to run the dockerized environment
 
@@ -58,12 +58,12 @@ The Docker Hearthcheck-Cas provides a container with the current stable version 
 
 ## Contributing
 
-1. Fork it ( https://github.com/locaweb/heartcheck-cas )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1.  Fork it ( https://github.com/locaweb/heartcheck-cas )
+2.  Create your feature branch (`git checkout -b my-new-feature`)
+3.  Commit your changes (`git commit -am 'Add some feature'`)
+4.  Push to the branch (`git push origin my-new-feature`)
+5.  Create a new Pull Request
 
 ## License
 
-*  [MIT License](https://github.com/locaweb/heartcheck-cas/blob/master/LICENSE.txt)
+*   [MIT License](https://github.com/locaweb/heartcheck-cas/blob/master/LICENSE.txt)
