@@ -44,9 +44,9 @@ end
 
 The Docker Hearthcheck-Cas provides a container with the current stable version of Ruby released and requires you to have these tools available in your local environment:
 
-- [Docker](https://docs.docker.com/get-docker/)
-- [Docker Compose](https://docs.docker.com/compose/install/)
-- [Bash](https://www.gnu.org/software/bash/)
+-  [Docker](https://docs.docker.com/get-docker/)
+-  [Docker Compose](https://docs.docker.com/compose/install/)
+-  [Bash](https://www.gnu.org/software/bash/)
 
 #### BootStrap Script to run the dockerized environment
 
@@ -66,4 +66,4 @@ The Docker Hearthcheck-Cas provides a container with the current stable version 
 
 ## License
 
-* [MIT License](https://github.com/locaweb/heartcheck-cas/blob/master/LICENSE.txt)
+*  [MIT License](https://github.com/locaweb/heartcheck-cas/blob/master/LICENSE.txt)
