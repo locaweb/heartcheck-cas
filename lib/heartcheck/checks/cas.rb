@@ -2,6 +2,8 @@ require 'json'
 
 module Heartcheck
   module Checks
+    # Check for a cas service
+    # Base is set in heartcheck gem
     class Cas < Base
       def validate
         services.each do |service|

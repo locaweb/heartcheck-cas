@@ -4,6 +4,7 @@ require 'openssl'
 
 module Heartcheck
   module Cas
+    # Handles HTTP connectivity
     class HttpClient
       def self.post(url, params)
         self.new.post(url, params)
