@@ -1,6 +1,6 @@
 # Heartcheck::Cas
 
-[![Build Status](https://travis-ci.org/locaweb/heartcheck-cas.svg?branch=master)](https://travis-ci.org/locaweb/heartcheck-cas)
+[![Build Status](https://github.com/locaweb/heartcheck-cas/actions/workflows/ci.yml/badge.svg)](https://github.com/locaweb/heartcheck-cas/actions/workflows/ci.yml)
 [![Code Climate](https://codeclimate.com/github/locaweb/heartcheck-cas/badges/gpa.svg)](https://codeclimate.com/github/locaweb/heartcheck-cas)
 
 A plugin to check CAS accessibility connection with [heartcheck](https://github.com/locaweb/heartcheck).
